@@ -37,9 +37,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		039D5FBF3994D0A12031DD7C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		039D5FBF3994D0A12031DD7C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		0C647C2CB14E84F56496AADA /* Pods_AnyBox_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AnyBox_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		51C424CAF601E3FC8EC50075 /* AnyBox.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = AnyBox.podspec; path = ../AnyBox.podspec; sourceTree = "<group>"; };
+		51C424CAF601E3FC8EC50075 /* AnyBox.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = AnyBox.podspec; path = ../AnyBox.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		6003F58A195388D20070C39A /* AnyBox_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnyBox_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -65,7 +65,7 @@
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		928DFE66B69C65127547E1EC /* Pods-AnyBox_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AnyBox_Example.debug.xcconfig"; path = "Target Support Files/Pods-AnyBox_Example/Pods-AnyBox_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		92E90F383C0F736E2190374C /* Pods-AnyBox_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AnyBox_Tests.debug.xcconfig"; path = "Target Support Files/Pods-AnyBox_Tests/Pods-AnyBox_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		94B402725D0E89D75AB62882 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		94B402725D0E89D75AB62882 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		EBCE874134B1DFF88C61806E /* Pods_AnyBox_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AnyBox_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -103,7 +103,6 @@
 				92E90F383C0F736E2190374C /* Pods-AnyBox_Tests.debug.xcconfig */,
 				7F87CE1A2FE7B7416777E95D /* Pods-AnyBox_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -258,6 +257,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

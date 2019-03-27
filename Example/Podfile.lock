@@ -1,0 +1,16 @@
+PODS:
+  - AnyBox (0.1.0)
+
+DEPENDENCIES:
+  - AnyBox (from `../`)
+
+EXTERNAL SOURCES:
+  AnyBox:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AnyBox: ac78966d516e0055bd45acaa3c14cbf4b707eefb
+
+PODFILE CHECKSUM: 9f3720fe88d5e68be9560093ede64c0fadabfb4c
+
+COCOAPODS: 1.6.1
