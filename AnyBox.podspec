@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-基础工具包，基础工具包，基础工具包，基础工具包，基础工具包，基础工具包，基础工具包。
+基础工具包，做到一行命令，工程的基础框架就已经搭好了，开发者只需要些写UI即可
                        DESC
 
   s.homepage         = 'https://github.com/fcl3016/AnyBox'
