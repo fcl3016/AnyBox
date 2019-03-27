@@ -7,6 +7,5 @@
 
 #ifndef Header_h
 #define Header_h
-
-
+#import "DebugUtils.h"
 #endif /* Header_h */
