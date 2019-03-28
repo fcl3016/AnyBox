@@ -7,29 +7,43 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		06C0DACCDD9D48FF40A4D59C51294B48 /* AnyBox.h in Headers */ = {isa = PBXBuildFile; fileRef = E05E39BF283CE658CB6FA83FDB2A6C1B /* AnyBox.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		135473D3531D735D13CC639A3C623B51 /* ABModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 40ECD6052A91CB07D563939DAF322EA5 /* ABModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1F38606B566BD0A92399D0D1785210D3 /* ABConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = E0E7FCE180A53E469009F5AD367D8681 /* ABConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		25D96A657AFC7618C9F3FAC3B38E09D0 /* Pods-AnyBox_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 948924CDDAC9B757AED59BC61F3499AB /* Pods-AnyBox_Example-dummy.m */; };
-		2DDE84CF971900CC082E00386BE45E69 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
-		486F435F86AEB3F6CE811A76FBC9A9A7 /* ab_nav_retunBtn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CD4D26F077DD228DC5785B82DBE1CD03 /* ab_nav_retunBtn@2x.png */; };
+		2DDE84CF971900CC082E00386BE45E69 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40CB39E715FBCDAA142E6513E126200A /* Foundation.framework */; };
+		39387C76A2F54D9D785ACEC40EAA907B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECF2A2B0720AE923C22BED3192888BE0 /* UIKit.framework */; };
+		4EC256CB5270B6FF851872FB178CBF92 /* ABBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BD0291EA0347F1C1BF20B4CEBDE6B559 /* ABBaseModel.m */; };
 		50329FDCCE09E933541130E0032C4ED1 /* Pods-AnyBox_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D86FF0FB5A339569213F1B9B924E33C /* Pods-AnyBox_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5281C8989519C911E396456DC1863D37 /* DebugUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 141B09AF7E2F8511E8FAB221E2DA83D8 /* DebugUtils.m */; };
-		5EB2A37DFF70746741FC47DE6DDF9153 /* AnyBox-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C5FB68566F41F1C7ACD9C04B6ADF82CC /* AnyBox-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		70B59AEED80016214572B0B4D0AFDBBF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		55F0AD80D4437A6B7ED8F6EB92EE0F39 /* AnyBox-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 69D5FF8913DC7D979B7E1C400866CC34 /* AnyBox-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5F28352800FDF6BD6A9EA5C929CCB5EC /* ABBaseModel.h in Headers */ = {isa = PBXBuildFile; fileRef = A2179E6A5E3833C8F4455DF6424221AA /* ABBaseModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		70B59AEED80016214572B0B4D0AFDBBF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40CB39E715FBCDAA142E6513E126200A /* Foundation.framework */; };
+		74153A0BC6B451708E77F3D4A340D294 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40CB39E715FBCDAA142E6513E126200A /* Foundation.framework */; };
 		7485196A7958BC57EF81962346A4E5C7 /* Pods-AnyBox_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C427B4BB30A6EF4B7AC78978B7D1DFA7 /* Pods-AnyBox_Tests-dummy.m */; };
-		86929A6BFFAB8F66928B2C948CCD1836 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
-		87CA3D5A43AB47C5EF5D68D05E8ACA31 /* AnyBox.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 76AC82D6146CD181A086152CDCC0A739 /* AnyBox.bundle */; };
-		BBC2EFAAB378D2A8E1C57E987F50CEC7 /* AnyBox-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EA576FEC3CDDFBAE687BD0D33D30AE3 /* AnyBox-dummy.m */; };
-		C3C61F8B180F18BB42DBBE051219A325 /* DebugUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 114EBFA077F448BFAD60544017E69F9C /* DebugUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E43A92D0661F0F6D530571B305CDB8C8 /* ab_nav_retunBtn_on@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 85E249EF3AABBFAD44761F132D6C11FF /* ab_nav_retunBtn_on@2x.png */; };
+		8AC602896B9D873D22D9BD96232A5C71 /* ABGlobarVar.h in Headers */ = {isa = PBXBuildFile; fileRef = D57E025EA99FC114490CC54053946D2D /* ABGlobarVar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9704A1F171F29C8F61C66E1D95878451 /* AnyBox-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EBEAE1364F8F6CA51BAAB40CE4F6AFE /* AnyBox-dummy.m */; };
+		A412332F790078B92E175CFE844BC9D8 /* AnyBox.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 76AC82D6146CD181A086152CDCC0A739 /* AnyBox.bundle */; };
+		A4F66F58D3ABD4D5B2ECFE04C838DC16 /* ab_nav_retunBtn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E2328823112C35099B6E939653481D4F /* ab_nav_retunBtn@2x.png */; };
+		BBE2B96B5121DEFA0E904587EBCFE712 /* ab_nav_retunBtn_on@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D23A764BB727B05C0A8C56CFAF07059 /* ab_nav_retunBtn_on@2x.png */; };
+		C5CCF6ECD96B128F470C938DB7C1731C /* BaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E7DC2AA1E230850F7C3029673ADA58F3 /* BaseModel.m */; };
+		DA651D855BE6CC86C68AF7B4B53927FD /* BaseModel.h in Headers */ = {isa = PBXBuildFile; fileRef = F71E3706B49090396CEB0AAC2CBB04A8 /* BaseModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E5DD8F1E76A3A95A6332EA7CF1892305 /* Pods-AnyBox_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 61C21803F0328DFB7E56CC3150E4DF2C /* Pods-AnyBox_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FB164E2ECB7F66B91524FE0ED1930792 /* AnyBox.h in Headers */ = {isa = PBXBuildFile; fileRef = A39A4A4DE0B3404B1138DB1835A270A8 /* AnyBox.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F34D8949B9DBA04572DCAEEE27A867B2 /* ABGlobarMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BF1B7D464BF95F87525A3346E44A3DF /* ABGlobarMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		71690AC1D98810C6141B6881DD18D16C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1C347D1702C92ADE3EA5DD00E0C011D5;
+			remoteInfo = "AnyBox-AnyBox";
+		};
 		95AB0AEBF4962A5FE3A48A8836B9A441 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = F468121394A84814CDF60A1BC04094E0;
+			remoteGlobalIDString = 271E22CAA58DC4B96BCAC5F52D1D080D;
 			remoteInfo = AnyBox;
 		};
 		974ECEB8189A89591F8F5EB6362FD4B1 /* PBXContainerItemProxy */ = {
@@ -39,54 +53,54 @@
 			remoteGlobalIDString = 2FA9CCE6ED3D85769BD34A5332EF4F2A;
 			remoteInfo = "Pods-AnyBox_Example";
 		};
-		D96130643A896050E76417E50D0E3743 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 95463B9900666D7C7D17A439EE1A187E;
-			remoteInfo = "AnyBox-AnyBox";
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		114EBFA077F448BFAD60544017E69F9C /* DebugUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DebugUtils.h; sourceTree = "<group>"; };
-		141B09AF7E2F8511E8FAB221E2DA83D8 /* DebugUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DebugUtils.m; sourceTree = "<group>"; };
+		0E494F81AA2E62D51B5918B70B8582D6 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		196E10D28CB571C0BA7254ED776FD0EB /* Pods-AnyBox_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AnyBox_Tests-Info.plist"; sourceTree = "<group>"; };
-		19BFCE9C99C99736DF78D7964EE67204 /* ResourceBundle-AnyBox-AnyBox-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-AnyBox-AnyBox-Info.plist"; sourceTree = "<group>"; };
-		1EA576FEC3CDDFBAE687BD0D33D30AE3 /* AnyBox-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AnyBox-dummy.m"; sourceTree = "<group>"; };
 		22BBE8A7AA8D96436A0824965BBA710C /* Pods-AnyBox_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AnyBox_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		23143F97069050447D1BD3591388B816 /* AnyBox-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AnyBox-prefix.pch"; sourceTree = "<group>"; };
 		279A5228C076960E362058ED7045B11E /* Pods-AnyBox_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AnyBox_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		2AD5E9BEC7205EE6ED7EE15B12D30563 /* AnyBox.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = AnyBox.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		2C1C8CA9A33F256D36CDCA1415404FBF /* AnyBox-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "AnyBox-Info.plist"; sourceTree = "<group>"; };
+		32F6118BA269063031767C9A0CFD97D2 /* ResourceBundle-AnyBox-AnyBox-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-AnyBox-AnyBox-Info.plist"; sourceTree = "<group>"; };
 		3EB9C687622CBE3400642EC0A1E7BCF2 /* Pods-AnyBox_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AnyBox_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		40CB39E715FBCDAA142E6513E126200A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		40ECD6052A91CB07D563939DAF322EA5 /* ABModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ABModel.h; sourceTree = "<group>"; };
 		42E32E96EE3D1E601C69392DBB13C418 /* Pods_AnyBox_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AnyBox_Tests.framework; path = "Pods-AnyBox_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A41CE7EFD6AD9311A06E1B9A8A74D6D /* Pods-AnyBox_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AnyBox_Example.modulemap"; sourceTree = "<group>"; };
 		4FE75A6781E1EBC4E6AD85D244A539BF /* Pods_AnyBox_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AnyBox_Example.framework; path = "Pods-AnyBox_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		51D61A085B5C02D82FDB86D5B02CE546 /* AnyBox.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AnyBox.framework; path = AnyBox.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5E52EBC73F3A681A99E68D6D8492C975 /* AnyBox.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AnyBox.xcconfig; sourceTree = "<group>"; };
+		5EBEAE1364F8F6CA51BAAB40CE4F6AFE /* AnyBox-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AnyBox-dummy.m"; sourceTree = "<group>"; };
 		61C21803F0328DFB7E56CC3150E4DF2C /* Pods-AnyBox_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AnyBox_Example-umbrella.h"; sourceTree = "<group>"; };
+		69D5FF8913DC7D979B7E1C400866CC34 /* AnyBox-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AnyBox-umbrella.h"; sourceTree = "<group>"; };
 		6D86FF0FB5A339569213F1B9B924E33C /* Pods-AnyBox_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AnyBox_Tests-umbrella.h"; sourceTree = "<group>"; };
 		70CB1E2F04AFD6DA943C0D62C48F4F7A /* Pods-AnyBox_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AnyBox_Tests.modulemap"; sourceTree = "<group>"; };
 		7607153C281EC854CFEDDAD9D2B0DC32 /* Pods-AnyBox_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AnyBox_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		76AC82D6146CD181A086152CDCC0A739 /* AnyBox.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = AnyBox.bundle; path = "AnyBox-AnyBox.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
-		85E249EF3AABBFAD44761F132D6C11FF /* ab_nav_retunBtn_on@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ab_nav_retunBtn_on@2x.png"; path = "AnyBox/Assets/ab_nav_retunBtn_on@2x.png"; sourceTree = "<group>"; };
+		7D23A764BB727B05C0A8C56CFAF07059 /* ab_nav_retunBtn_on@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ab_nav_retunBtn_on@2x.png"; path = "AnyBox/Assets/ab_nav_retunBtn_on@2x.png"; sourceTree = "<group>"; };
+		898BF9DB0D39EA3CCC19E2BA42F4DCD9 /* AnyBox-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "AnyBox-Info.plist"; sourceTree = "<group>"; };
 		9324DC1ACCB482100A8B7FF09F449B23 /* Pods-AnyBox_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AnyBox_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		948924CDDAC9B757AED59BC61F3499AB /* Pods-AnyBox_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AnyBox_Example-dummy.m"; sourceTree = "<group>"; };
+		96212A0E05833A53B37EBC61DAE2ADE6 /* AnyBox.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AnyBox.modulemap; sourceTree = "<group>"; };
+		962637C27ACA667DE8A04D9FC5BBE073 /* AnyBox-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AnyBox-prefix.pch"; sourceTree = "<group>"; };
+		9BF1B7D464BF95F87525A3346E44A3DF /* ABGlobarMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ABGlobarMacros.h; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A39A4A4DE0B3404B1138DB1835A270A8 /* AnyBox.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AnyBox.h; path = AnyBox/Classes/AnyBox.h; sourceTree = "<group>"; };
+		A2179E6A5E3833C8F4455DF6424221AA /* ABBaseModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ABBaseModel.h; sourceTree = "<group>"; };
 		AB49D38ABF2D41B77DE5376BE7B0DE18 /* Pods-AnyBox_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AnyBox_Example.release.xcconfig"; sourceTree = "<group>"; };
 		B5798424BD2EE5C6B266B6553A8E9F92 /* Pods-AnyBox_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AnyBox_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		BD0291EA0347F1C1BF20B4CEBDE6B559 /* ABBaseModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ABBaseModel.m; sourceTree = "<group>"; };
 		BEDE71A52A79F0211FBC42FBAE5D54A9 /* Pods-AnyBox_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AnyBox_Example-Info.plist"; sourceTree = "<group>"; };
 		C427B4BB30A6EF4B7AC78978B7D1DFA7 /* Pods-AnyBox_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AnyBox_Tests-dummy.m"; sourceTree = "<group>"; };
-		C5FB68566F41F1C7ACD9C04B6ADF82CC /* AnyBox-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AnyBox-umbrella.h"; sourceTree = "<group>"; };
+		C7F9613AE8579D9A181B5899913C0C7E /* AnyBox.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = AnyBox.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		CA0D97FB54088A930968062AFF4CDC19 /* Pods-AnyBox_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AnyBox_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		CD4D26F077DD228DC5785B82DBE1CD03 /* ab_nav_retunBtn@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ab_nav_retunBtn@2x.png"; path = "AnyBox/Assets/ab_nav_retunBtn@2x.png"; sourceTree = "<group>"; };
 		D0CF9AECC9D07B53848720E0381B9E19 /* Pods-AnyBox_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AnyBox_Example-frameworks.sh"; sourceTree = "<group>"; };
-		D789710BA787C81C8977A2686B4E893F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		DD2F35D53EC51E59223BF0180E5EFFE3 /* AnyBox.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AnyBox.modulemap; sourceTree = "<group>"; };
-		DF02C268C1345AA2BEBCED4A46BDD136 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		D45E3D274539167C50AED014BE76D22D /* AnyBox.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AnyBox.xcconfig; sourceTree = "<group>"; };
+		D57E025EA99FC114490CC54053946D2D /* ABGlobarVar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ABGlobarVar.h; sourceTree = "<group>"; };
+		E05E39BF283CE658CB6FA83FDB2A6C1B /* AnyBox.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AnyBox.h; path = AnyBox/Classes/AnyBox.h; sourceTree = "<group>"; };
+		E0E7FCE180A53E469009F5AD367D8681 /* ABConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ABConfig.h; sourceTree = "<group>"; };
+		E2328823112C35099B6E939653481D4F /* ab_nav_retunBtn@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ab_nav_retunBtn@2x.png"; path = "AnyBox/Assets/ab_nav_retunBtn@2x.png"; sourceTree = "<group>"; };
+		E7DC2AA1E230850F7C3029673ADA58F3 /* BaseModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BaseModel.m; sourceTree = "<group>"; };
+		ECF2A2B0720AE923C22BED3192888BE0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		F71E3706B49090396CEB0AAC2CBB04A8 /* BaseModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BaseModel.h; sourceTree = "<group>"; };
+		FF3D36CEBDF76419A0C78384BF8BB50B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +112,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		3810C3F2B7D765A6CA0EB817BEFCC4C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74153A0BC6B451708E77F3D4A340D294 /* Foundation.framework in Frameworks */,
+				39387C76A2F54D9D785ACEC40EAA907B /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B49C1B7ED2B3C65E66717C9B5D46DCB3 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -106,67 +129,63 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E061CA27AD9ECED4C8C7298839C2505C /* Frameworks */ = {
+		CBA0AB5DAE67C330B47530622E98EB74 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		EC7A9A1C745751A66FD71A5DF56B2AF6 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				86929A6BFFAB8F66928B2C948CCD1836 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		31E9BDDC8D0523B8AA315508FC09AAB8 /* Development Pods */ = {
+		1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				3BFB082F3BB040727C00F5F42651C710 /* AnyBox */,
+				E169A450ED27AC725DF52953F66D11E0 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5AC0895AA3C4C929B51C6654575B742B /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				E0E7FCE180A53E469009F5AD367D8681 /* ABConfig.h */,
+				9BF1B7D464BF95F87525A3346E44A3DF /* ABGlobarMacros.h */,
+				D57E025EA99FC114490CC54053946D2D /* ABGlobarVar.h */,
+			);
+			name = Config;
+			path = AnyBox/Classes/Config;
+			sourceTree = "<group>";
+		};
+		6C131B5B598309414E0770AF902872DB /* BaseModel */ = {
+			isa = PBXGroup;
+			children = (
+				A2179E6A5E3833C8F4455DF6424221AA /* ABBaseModel.h */,
+				BD0291EA0347F1C1BF20B4CEBDE6B559 /* ABBaseModel.m */,
+				F71E3706B49090396CEB0AAC2CBB04A8 /* BaseModel.h */,
+				E7DC2AA1E230850F7C3029673ADA58F3 /* BaseModel.m */,
+			);
+			name = BaseModel;
+			path = BaseModel;
+			sourceTree = "<group>";
+		};
+		6F604FF0759CEC09DB9905FB7B4CB30A /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				C7F9613AE8579D9A181B5899913C0C7E /* AnyBox.podspec */,
+				FF3D36CEBDF76419A0C78384BF8BB50B /* LICENSE */,
+				0E494F81AA2E62D51B5918B70B8582D6 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		80D840609605DB84ED3986CAC711D07C /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C6CD3BF50995DD806404D21BF3FD03C9 /* AnyBox */,
 			);
 			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		3BFB082F3BB040727C00F5F42651C710 /* AnyBox */ = {
-			isa = PBXGroup;
-			children = (
-				A39A4A4DE0B3404B1138DB1835A270A8 /* AnyBox.h */,
-				C535E33944FAF99DD94E3A71B388218C /* Pod */,
-				816135260060AEC0EDDF54E265B3B3A6 /* Resources */,
-				727E7EBC174F4D8616507B5A0C79BE66 /* Support Files */,
-				FB2ABA85C5ACDAA4B5EBF494DA252302 /* Tools */,
-			);
-			name = AnyBox;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		727E7EBC174F4D8616507B5A0C79BE66 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				DD2F35D53EC51E59223BF0180E5EFFE3 /* AnyBox.modulemap */,
-				5E52EBC73F3A681A99E68D6D8492C975 /* AnyBox.xcconfig */,
-				1EA576FEC3CDDFBAE687BD0D33D30AE3 /* AnyBox-dummy.m */,
-				2C1C8CA9A33F256D36CDCA1415404FBF /* AnyBox-Info.plist */,
-				23143F97069050447D1BD3591388B816 /* AnyBox-prefix.pch */,
-				C5FB68566F41F1C7ACD9C04B6ADF82CC /* AnyBox-umbrella.h */,
-				19BFCE9C99C99736DF78D7964EE67204 /* ResourceBundle-AnyBox-AnyBox-Info.plist */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/AnyBox";
-			sourceTree = "<group>";
-		};
-		816135260060AEC0EDDF54E265B3B3A6 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				CD4D26F077DD228DC5785B82DBE1CD03 /* ab_nav_retunBtn@2x.png */,
-				85E249EF3AABBFAD44761F132D6C11FF /* ab_nav_retunBtn_on@2x.png */,
-			);
-			name = Resources;
 			sourceTree = "<group>";
 		};
 		84F2ADEA4071ADF3A3D95B6A32D28C8B /* Targets Support Files */ = {
@@ -176,6 +195,21 @@
 				E153C1F1FF10140F0F10EE051E9D4F57 /* Pods-AnyBox_Tests */,
 			);
 			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		979230CE6E168EB34D1E2B899B5711D2 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				96212A0E05833A53B37EBC61DAE2ADE6 /* AnyBox.modulemap */,
+				D45E3D274539167C50AED014BE76D22D /* AnyBox.xcconfig */,
+				5EBEAE1364F8F6CA51BAAB40CE4F6AFE /* AnyBox-dummy.m */,
+				898BF9DB0D39EA3CCC19E2BA42F4DCD9 /* AnyBox-Info.plist */,
+				962637C27ACA667DE8A04D9FC5BBE073 /* AnyBox-prefix.pch */,
+				69D5FF8913DC7D979B7E1C400866CC34 /* AnyBox-umbrella.h */,
+				32F6118BA269063031767C9A0CFD97D2 /* ResourceBundle-AnyBox-AnyBox-Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/AnyBox";
 			sourceTree = "<group>";
 		};
 		99225E61DB6CDA688BE3FEC50649458B /* Pods-AnyBox_Example */ = {
@@ -195,41 +229,48 @@
 			path = "Target Support Files/Pods-AnyBox_Example";
 			sourceTree = "<group>";
 		};
-		9B055D0CFEA43187E72B03DED11F5662 /* iOS */ = {
+		B20DC7127F15F6796667683738A689E7 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */,
+				E2328823112C35099B6E939653481D4F /* ab_nav_retunBtn@2x.png */,
+				7D23A764BB727B05C0A8C56CFAF07059 /* ab_nav_retunBtn_on@2x.png */,
 			);
-			name = iOS;
+			name = Resources;
 			sourceTree = "<group>";
 		};
-		C535E33944FAF99DD94E3A71B388218C /* Pod */ = {
+		C6CD3BF50995DD806404D21BF3FD03C9 /* AnyBox */ = {
 			isa = PBXGroup;
 			children = (
-				2AD5E9BEC7205EE6ED7EE15B12D30563 /* AnyBox.podspec */,
-				DF02C268C1345AA2BEBCED4A46BDD136 /* LICENSE */,
-				D789710BA787C81C8977A2686B4E893F /* README.md */,
+				E05E39BF283CE658CB6FA83FDB2A6C1B /* AnyBox.h */,
+				5AC0895AA3C4C929B51C6654575B742B /* Config */,
+				C8A5E59E18837A648E3F0B792F1E79A1 /* Model */,
+				6F604FF0759CEC09DB9905FB7B4CB30A /* Pod */,
+				B20DC7127F15F6796667683738A689E7 /* Resources */,
+				979230CE6E168EB34D1E2B899B5711D2 /* Support Files */,
 			);
-			name = Pod;
+			name = AnyBox;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		C8A5E59E18837A648E3F0B792F1E79A1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				40ECD6052A91CB07D563939DAF322EA5 /* ABModel.h */,
+				6C131B5B598309414E0770AF902872DB /* BaseModel */,
+			);
+			name = Model;
+			path = AnyBox/Classes/Model;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				31E9BDDC8D0523B8AA315508FC09AAB8 /* Development Pods */,
-				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				80D840609605DB84ED3986CAC711D07C /* Development Pods */,
+				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
 				E1AEC20F6FE1AFF2C5687774798EAC1F /* Products */,
 				84F2ADEA4071ADF3A3D95B6A32D28C8B /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				9B055D0CFEA43187E72B03DED11F5662 /* iOS */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		E153C1F1FF10140F0F10EE051E9D4F57 /* Pods-AnyBox_Tests */ = {
@@ -248,6 +289,15 @@
 			path = "Target Support Files/Pods-AnyBox_Tests";
 			sourceTree = "<group>";
 		};
+		E169A450ED27AC725DF52953F66D11E0 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				40CB39E715FBCDAA142E6513E126200A /* Foundation.framework */,
+				ECF2A2B0720AE923C22BED3192888BE0 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
 		E1AEC20F6FE1AFF2C5687774798EAC1F /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -259,34 +309,29 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		FB2ABA85C5ACDAA4B5EBF494DA252302 /* Tools */ = {
-			isa = PBXGroup;
-			children = (
-				114EBFA077F448BFAD60544017E69F9C /* DebugUtils.h */,
-				141B09AF7E2F8511E8FAB221E2DA83D8 /* DebugUtils.m */,
-			);
-			name = Tools;
-			path = AnyBox/Classes/Tools;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		36EA0B49DE2CF7B716E66FA0AC1B5E4C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F28352800FDF6BD6A9EA5C929CCB5EC /* ABBaseModel.h in Headers */,
+				1F38606B566BD0A92399D0D1785210D3 /* ABConfig.h in Headers */,
+				F34D8949B9DBA04572DCAEEE27A867B2 /* ABGlobarMacros.h in Headers */,
+				8AC602896B9D873D22D9BD96232A5C71 /* ABGlobarVar.h in Headers */,
+				135473D3531D735D13CC639A3C623B51 /* ABModel.h in Headers */,
+				55F0AD80D4437A6B7ED8F6EB92EE0F39 /* AnyBox-umbrella.h in Headers */,
+				06C0DACCDD9D48FF40A4D59C51294B48 /* AnyBox.h in Headers */,
+				DA651D855BE6CC86C68AF7B4B53927FD /* BaseModel.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		513A2C1716459AEA991F93350DF1B5DF /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				50329FDCCE09E933541130E0032C4ED1 /* Pods-AnyBox_Tests-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		6A6EAAF4CBE0117FBBD428ABE3F3145A /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5EB2A37DFF70746741FC47DE6DDF9153 /* AnyBox-umbrella.h in Headers */,
-				FB164E2ECB7F66B91524FE0ED1930792 /* AnyBox.h in Headers */,
-				C3C61F8B180F18BB42DBBE051219A325 /* DebugUtils.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,6 +346,42 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		1C347D1702C92ADE3EA5DD00E0C011D5 /* AnyBox-AnyBox */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0890520811A677E145C1B720BC4897DD /* Build configuration list for PBXNativeTarget "AnyBox-AnyBox" */;
+			buildPhases = (
+				0DF76D22715B72CDAE6FF3E0BD7FDAEB /* Sources */,
+				CBA0AB5DAE67C330B47530622E98EB74 /* Frameworks */,
+				EF1926E476EE5D430EFCB704A7546945 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "AnyBox-AnyBox";
+			productName = "AnyBox-AnyBox";
+			productReference = 76AC82D6146CD181A086152CDCC0A739 /* AnyBox.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		271E22CAA58DC4B96BCAC5F52D1D080D /* AnyBox */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0E858A0EBE2526AC002B14146D52C77E /* Build configuration list for PBXNativeTarget "AnyBox" */;
+			buildPhases = (
+				36EA0B49DE2CF7B716E66FA0AC1B5E4C /* Headers */,
+				54D2E9B6EB88917CF0E93977A37964CA /* Sources */,
+				3810C3F2B7D765A6CA0EB817BEFCC4C4 /* Frameworks */,
+				89AE03E82435099FBC1D168FF1F00DE1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				325EAF4BBA19EA7EA96181AC9A9E68B8 /* PBXTargetDependency */,
+			);
+			name = AnyBox;
+			productName = AnyBox;
+			productReference = 51D61A085B5C02D82FDB86D5B02CE546 /* AnyBox.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		2FA9CCE6ED3D85769BD34A5332EF4F2A /* Pods-AnyBox_Example */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = D5B2D846136BC6B0B0CD42E5FEEE7969 /* Build configuration list for PBXNativeTarget "Pods-AnyBox_Example" */;
@@ -318,42 +399,6 @@
 			name = "Pods-AnyBox_Example";
 			productName = "Pods-AnyBox_Example";
 			productReference = 4FE75A6781E1EBC4E6AD85D244A539BF /* Pods_AnyBox_Example.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		95463B9900666D7C7D17A439EE1A187E /* AnyBox-AnyBox */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 5FC225CA5A255A7A3F9891870A69D6AC /* Build configuration list for PBXNativeTarget "AnyBox-AnyBox" */;
-			buildPhases = (
-				954F1AD64BDFFF499EC8EC8CB6BC636B /* Sources */,
-				E061CA27AD9ECED4C8C7298839C2505C /* Frameworks */,
-				9CFED47B2436DBFAD898C8E072FDB3BF /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "AnyBox-AnyBox";
-			productName = "AnyBox-AnyBox";
-			productReference = 76AC82D6146CD181A086152CDCC0A739 /* AnyBox.bundle */;
-			productType = "com.apple.product-type.bundle";
-		};
-		F468121394A84814CDF60A1BC04094E0 /* AnyBox */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = D8D363D6F57340F2643271633470FCB6 /* Build configuration list for PBXNativeTarget "AnyBox" */;
-			buildPhases = (
-				6A6EAAF4CBE0117FBBD428ABE3F3145A /* Headers */,
-				2E6327D3C65D741CAF19D753305B83AA /* Sources */,
-				EC7A9A1C745751A66FD71A5DF56B2AF6 /* Frameworks */,
-				B1AF70420EFC82E29A36CCD5C39AE957 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				61477A605C3CBE2D0EDC304470315624 /* PBXTargetDependency */,
-			);
-			name = AnyBox;
-			productName = AnyBox;
-			productReference = 51D61A085B5C02D82FDB86D5B02CE546 /* AnyBox.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		F9A051598DF4211C2B018E725D0AEFF1 /* Pods-AnyBox_Tests */ = {
@@ -396,8 +441,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F468121394A84814CDF60A1BC04094E0 /* AnyBox */,
-				95463B9900666D7C7D17A439EE1A187E /* AnyBox-AnyBox */,
+				271E22CAA58DC4B96BCAC5F52D1D080D /* AnyBox */,
+				1C347D1702C92ADE3EA5DD00E0C011D5 /* AnyBox-AnyBox */,
 				2FA9CCE6ED3D85769BD34A5332EF4F2A /* Pods-AnyBox_Example */,
 				F9A051598DF4211C2B018E725D0AEFF1 /* Pods-AnyBox_Tests */,
 			);
@@ -419,32 +464,40 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9CFED47B2436DBFAD898C8E072FDB3BF /* Resources */ = {
+		89AE03E82435099FBC1D168FF1F00DE1 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				486F435F86AEB3F6CE811A76FBC9A9A7 /* ab_nav_retunBtn@2x.png in Resources */,
-				E43A92D0661F0F6D530571B305CDB8C8 /* ab_nav_retunBtn_on@2x.png in Resources */,
+				A412332F790078B92E175CFE844BC9D8 /* AnyBox.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B1AF70420EFC82E29A36CCD5C39AE957 /* Resources */ = {
+		EF1926E476EE5D430EFCB704A7546945 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				87CA3D5A43AB47C5EF5D68D05E8ACA31 /* AnyBox.bundle in Resources */,
+				A4F66F58D3ABD4D5B2ECFE04C838DC16 /* ab_nav_retunBtn@2x.png in Resources */,
+				BBE2B96B5121DEFA0E904587EBCFE712 /* ab_nav_retunBtn_on@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		2E6327D3C65D741CAF19D753305B83AA /* Sources */ = {
+		0DF76D22715B72CDAE6FF3E0BD7FDAEB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BBC2EFAAB378D2A8E1C57E987F50CEC7 /* AnyBox-dummy.m in Sources */,
-				5281C8989519C911E396456DC1863D37 /* DebugUtils.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54D2E9B6EB88917CF0E93977A37964CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EC256CB5270B6FF851872FB178CBF92 /* ABBaseModel.m in Sources */,
+				9704A1F171F29C8F61C66E1D95878451 /* AnyBox-dummy.m in Sources */,
+				C5CCF6ECD96B128F470C938DB7C1731C /* BaseModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -453,13 +506,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				7485196A7958BC57EF81962346A4E5C7 /* Pods-AnyBox_Tests-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		954F1AD64BDFFF499EC8EC8CB6BC636B /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -474,16 +520,16 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		61477A605C3CBE2D0EDC304470315624 /* PBXTargetDependency */ = {
+		325EAF4BBA19EA7EA96181AC9A9E68B8 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "AnyBox-AnyBox";
-			target = 95463B9900666D7C7D17A439EE1A187E /* AnyBox-AnyBox */;
-			targetProxy = D96130643A896050E76417E50D0E3743 /* PBXContainerItemProxy */;
+			target = 1C347D1702C92ADE3EA5DD00E0C011D5 /* AnyBox-AnyBox */;
+			targetProxy = 71690AC1D98810C6141B6881DD18D16C /* PBXContainerItemProxy */;
 		};
 		81B126C654A920289AAEDBD085597A19 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = AnyBox;
-			target = F468121394A84814CDF60A1BC04094E0 /* AnyBox */;
+			target = 271E22CAA58DC4B96BCAC5F52D1D080D /* AnyBox */;
 			targetProxy = 95AB0AEBF4962A5FE3A48A8836B9A441 /* PBXContainerItemProxy */;
 		};
 		F3F6F39ECAF17B529357FFB2BF919A20 /* PBXTargetDependency */ = {
@@ -588,67 +634,6 @@
 			};
 			name = Debug;
 		};
-		24AB22A0D261C599910CFFF214142088 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5E52EBC73F3A681A99E68D6D8492C975 /* AnyBox.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/AnyBox/AnyBox-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/AnyBox/AnyBox-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/AnyBox/AnyBox.modulemap";
-				PRODUCT_MODULE_NAME = AnyBox;
-				PRODUCT_NAME = AnyBox;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		345387C06D4C264BE7D3B20E6FB7AB8D /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5E52EBC73F3A681A99E68D6D8492C975 /* AnyBox.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/AnyBox/AnyBox-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/AnyBox/AnyBox-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/AnyBox/AnyBox.modulemap";
-				PRODUCT_MODULE_NAME = AnyBox;
-				PRODUCT_NAME = AnyBox;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		421ECB1396280A8D83853C3DDBED1700 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -747,6 +732,53 @@
 			};
 			name = Release;
 		};
+		4E821B54848D574F0E57E6C4D1118726 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D45E3D274539167C50AED014BE76D22D /* AnyBox.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/AnyBox";
+				INFOPLIST_FILE = "Target Support Files/AnyBox/ResourceBundle-AnyBox-AnyBox-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = AnyBox;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		86A922880530582EBF582E383110616F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D45E3D274539167C50AED014BE76D22D /* AnyBox.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/AnyBox/AnyBox-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AnyBox/AnyBox-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AnyBox/AnyBox.modulemap";
+				PRODUCT_MODULE_NAME = AnyBox;
+				PRODUCT_NAME = AnyBox;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		8F8FE74A2C16660C592B66364FB1C68B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 279A5228C076960E362058ED7045B11E /* Pods-AnyBox_Tests.debug.xcconfig */;
@@ -777,22 +809,6 @@
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		953C475A5B342404F89D102AB26FDDFD /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5E52EBC73F3A681A99E68D6D8492C975 /* AnyBox.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/AnyBox";
-				INFOPLIST_FILE = "Target Support Files/AnyBox/ResourceBundle-AnyBox-AnyBox-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				PRODUCT_NAME = AnyBox;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
 			};
 			name = Debug;
 		};
@@ -830,9 +846,39 @@
 			};
 			name = Release;
 		};
-		EE437D2543A004283E1D9F9BFBD01815 /* Release */ = {
+		C98728917EC8F79FE08DBE1FBE5A67EE /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5E52EBC73F3A681A99E68D6D8492C975 /* AnyBox.xcconfig */;
+			baseConfigurationReference = D45E3D274539167C50AED014BE76D22D /* AnyBox.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/AnyBox/AnyBox-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AnyBox/AnyBox-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AnyBox/AnyBox.modulemap";
+				PRODUCT_MODULE_NAME = AnyBox;
+				PRODUCT_NAME = AnyBox;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		EC146D501057BC6A62CD33C0F66F3420 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D45E3D274539167C50AED014BE76D22D /* AnyBox.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/AnyBox";
@@ -844,25 +890,34 @@
 				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = bundle;
 			};
-			name = Release;
+			name = Debug;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		0890520811A677E145C1B720BC4897DD /* Build configuration list for PBXNativeTarget "AnyBox-AnyBox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC146D501057BC6A62CD33C0F66F3420 /* Debug */,
+				4E821B54848D574F0E57E6C4D1118726 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0E858A0EBE2526AC002B14146D52C77E /* Build configuration list for PBXNativeTarget "AnyBox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C98728917EC8F79FE08DBE1FBE5A67EE /* Debug */,
+				86A922880530582EBF582E383110616F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				421ECB1396280A8D83853C3DDBED1700 /* Debug */,
 				05DF210AC65EBB0E593AAF976B2C2177 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		5FC225CA5A255A7A3F9891870A69D6AC /* Build configuration list for PBXNativeTarget "AnyBox-AnyBox" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				953C475A5B342404F89D102AB26FDDFD /* Debug */,
-				EE437D2543A004283E1D9F9BFBD01815 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -881,15 +936,6 @@
 			buildConfigurations = (
 				0B25E481A63E4CD3A2D4A648E19A20C8 /* Debug */,
 				C3B33501BEDE124D6D0087FB9ACF8B9B /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		D8D363D6F57340F2643271633470FCB6 /* Build configuration list for PBXNativeTarget "AnyBox" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				24AB22A0D261C599910CFFF214142088 /* Debug */,
-				345387C06D4C264BE7D3B20E6FB7AB8D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

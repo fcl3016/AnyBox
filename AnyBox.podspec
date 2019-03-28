@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-基础工具包，做到一行命令，工程的基础框架就已经搭好了，开发者只需要些写UI即可
+  基础工具包，做到一行命令，工程的基础框架就已经搭好了，开发者只需要些写UI即可
                        DESC
 
   s.homepage         = 'https://github.com/fcl3016/AnyBox'
@@ -36,7 +36,6 @@ Pod::Spec.new do |s|
     'AnyBox' => ['AnyBox/Assets/*.png']
   }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.public_header_files = ['AnyBox/Classes/*.h', 'AnyBox/Classes/**/*.h', 'AnyBox/Classes/**/**/*.h']
+  s.frameworks = 'UIKit'
 end

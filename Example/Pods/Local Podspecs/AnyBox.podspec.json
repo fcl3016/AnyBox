@@ -2,7 +2,7 @@
   "name": "AnyBox",
   "version": "0.1.0",
   "summary": "AnyBox is a iOS Base Project.",
-  "description": "基础工具包，基础工具包，基础工具包，基础工具包，基础工具包，基础工具包，基础工具包。",
+  "description": "基础工具包，做到一行命令，工程的基础框架就已经搭好了，开发者只需要些写UI即可",
   "homepage": "https://github.com/fcl3016/AnyBox",
   "license": {
     "type": "MIT",
@@ -23,5 +23,11 @@
     "AnyBox": [
       "AnyBox/Assets/*.png"
     ]
-  }
+  },
+  "public_header_files": [
+    "AnyBox/Classes/*.h",
+    "AnyBox/Classes/**/*.h",
+    "AnyBox/Classes/**/**/*.h"
+  ],
+  "frameworks": "UIKit"
 }
