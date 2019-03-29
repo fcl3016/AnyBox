@@ -1,6 +1,6 @@
 {
   "name": "AnyBox",
-  "version": "0.1.0",
+  "version": "0.1.3",
   "summary": "AnyBox is a iOS Base Project.",
   "description": "基础工具包，做到一行命令，工程的基础框架就已经搭好了，开发者只需要些写UI即可",
   "homepage": "https://github.com/fcl3016/AnyBox",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/fcl3016/AnyBox.git",
-    "tag": "0.1.0"
+    "tag": "0.1.3"
   },
   "platforms": {
     "ios": "8.0"

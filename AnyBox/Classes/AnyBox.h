@@ -20,3 +20,4 @@
 
 #import "ABModel.h"
 
+#import "ABBaseViewModel.h"

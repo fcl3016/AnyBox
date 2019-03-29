@@ -16,7 +16,8 @@
 #import "ABGlobarVar.h"
 #import "ABModel.h"
 #import "ABBaseModel.h"
-#import "BaseModel.h"
+#import "ABBaseViewModel.h"
+#import "ABViewModel.h"
 
 FOUNDATION_EXPORT double AnyBoxVersionNumber;
 FOUNDATION_EXPORT const unsigned char AnyBoxVersionString[];

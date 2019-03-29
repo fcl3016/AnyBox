@@ -1,5 +1,5 @@
 PODS:
-  - AnyBox (0.1.0)
+  - AnyBox (0.1.3)
 
 DEPENDENCIES:
   - AnyBox (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  AnyBox: 977b5eb9bc4ddff4a1ff393ba412a6df43d2c7a6
+  AnyBox: 20cc2549e3279d7a89855e69b651d3cdb00b64ad
 
 PODFILE CHECKSUM: 9f3720fe88d5e68be9560093ede64c0fadabfb4c
 
